@@ -17,7 +17,7 @@ class bankDisplay:
         ##  the transaction type boxes
         self.labelsLeft = ("Pay Bill", "Gas", "Child Care", "Food/Supplies","For Fun", "Other", "Got Paid")
 
-        self.labelsRight = ("Melissa","Rich")
+        self.labelsRight = ("April","Sky")
 
         self.framesLeft = []
         self.framesRight = []
@@ -43,9 +43,9 @@ class bankDisplay:
 
 
         ##########################################
-        ## the Rich/Melissa Option
+        ## the Sky/April Option
         self.checkRorM = StringVar()
-        self.checkRorM.set("Melissa")
+        self.checkRorM.set("April")
 
         for i in range(0,2):
             self.acheckbutton = Radiobutton(self.main,text=self.labelsRight[i], variable=self.checkRorM, value=self.labelsRight[i], width=20).grid(row=i+1, column=1)
