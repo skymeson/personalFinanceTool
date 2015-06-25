@@ -1,5 +1,5 @@
-from tkinter import *
-
+#from tkinter import *
+from Tkinter import *
 class bankDisplay:
 
     def __init__(self):
